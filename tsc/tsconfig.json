@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig-noncomposite-base",
+    "compilerOptions": {
+        "outFile": "../built/local/tsc.js",
+    },
+    "files": [
+        "index.ts"
+    ],
+    "references": [
+        {
+            "path": "../compiler",
+            "prepend": false
+        }
+    ]
+}
