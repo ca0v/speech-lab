@@ -23,6 +23,7 @@
         "skipLibCheck": true,
         "alwaysStrict": true,
         "preserveConstEnums": true,
+        "esModuleInterop": true,
         "newLine": "lf",
         "types": []
     }
